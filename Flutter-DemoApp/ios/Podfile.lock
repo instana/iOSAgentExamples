@@ -1,0 +1,29 @@
+PODS:
+  - GzipSwift (5.1.1)
+  - Instana (0.0.1):
+    - GzipSwift
+
+DEPENDENCIES:
+  - "Instana (from `git@github.com:instana/iOSAgent`, branch `development`)"
+
+SPEC REPOS:
+  trunk:
+    - GzipSwift
+
+EXTERNAL SOURCES:
+  Instana:
+    :branch: development
+    :git: "git@github.com:instana/iOSAgent"
+
+CHECKOUT OPTIONS:
+  Instana:
+    :commit: 861a60a26f814197b10c1fb2317fa37337c2371a
+    :git: "git@github.com:instana/iOSAgent"
+
+SPEC CHECKSUMS:
+  GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
+  Instana: 856ddac6d37481fdfa6709bb647db069cf8d9580
+
+PODFILE CHECKSUM: 934de1018805844ca51404b4b023a4e1bd4ffd84
+
+COCOAPODS: 1.8.4
