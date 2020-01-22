@@ -14,9 +14,9 @@
         "package": "InstanaAgent",
         "repositoryURL": "https://github.com/instana/iOSAgent.git",
         "state": {
-          "branch": "master",
-          "revision": "51128356f42f69cf7a1c28b9e304f5b6d20b9440",
-          "version": null
+          "branch": null,
+          "revision": "12e4c017a4aba91fb1dfd61d859e5b65da514b5a",
+          "version": "0.1.0"
         }
       },
       {
