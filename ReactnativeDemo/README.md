@@ -1,21 +1,48 @@
-# React Native Instana How-To
+# Try the ReactNative Example
+If you are new to ReactNative, you should go to this [article](https://facebook.github.io/react-native/docs/getting-started) and read the *React Native CLI Quickstart*.
 
-## Install
-1. Add `Instana` to your `Podfile` like
+### Get the code
 ```
-pod 'Instana', :git => 'git@github.com:instana/iOSAgent', :branch => 'master'
+git clone https://github.com/instana/iOSAgentExamples.git
+cd iOSAgentExamples/ReactnativeDemo
+npm install
 ```
-2. Run `pod install`
-3. Import Instana in your React Native iOS Project in the `ios/ReactnativeDemo/AppDelegate.m`
+
+### Setup demo
+Please enter the provided key and reporting URL in the proper setup method. You don't have a key yet? Just use a free  [Instana trial version](https://www.instana.com/trial/) and get a key & url.
+
+#### iOS
+Instana is installed via `CocoaPods`
+Just run pod install via 
 ```
-@import Instana;
+cd ios
+pod install
+cd ..
+```
+
+You will find the setup in the `ReactnativeDemo/ios/ReactnativeDemo/AppDelegate.m`
+
+```
+@import InstanaAgent;
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [Instana setupWithKey:@"<YOUR KEY>" reportingURL:[NSURL URLWithString:@"<YOUR INSTANA URL>"]];
-  
-   ...
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  [Instana setupWithKey:@"<Your Key>" reportingURL:[NSURL URLWithString:@"<YOUR INSTANA URL>"]];
 }
+```
+
+#### Android
+.....
+
+### Start demo
+#### iOS
+```
+npx react-native run-ios
+```
+#### Android
+```
+npx react-native run-android
 ```
 
