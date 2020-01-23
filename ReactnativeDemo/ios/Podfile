@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 target 'ReactnativeDemo' do
   # Pods for ReactnativeDemo
-  pod 'InstanaAgent', :git => 'git@github.com:instana/iOSAgent', :branch => 'master'
+  pod 'InstanaAgent'
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
