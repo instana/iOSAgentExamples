@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstanaXamarinBinding/ApiDefinitions.cs">
+    <Files>
+      <File FileName="InstanaXamarinBinding/ApiDefinitions.cs" Line="17" Column="18" />
+      <File FileName="InstanaXamarinBinding/Structs.cs" Line="41606" Column="1" />
+      <File FileName="../../../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.ObjCBinding.CSharp.targets" Line="63" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InstanaXamarinBinding" expanded="True">
+            <Node name="InstanaXamarinBinding" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="NativeReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

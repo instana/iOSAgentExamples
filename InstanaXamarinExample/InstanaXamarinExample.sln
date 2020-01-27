@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "InstanaXamarinExample", "InstanaXamarinExample\InstanaXamarinExample.shproj", "{B8779815-768B-4733-85A8-B68E60247B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstanaXamarinExample.iOS", "iOS\InstanaXamarinExample.iOS.csproj", "{052672F1-EC15-4FE6-B1C3-1D766F4363E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Release|iPhone.ActiveCfg = Release|iPhone
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Release|iPhone.Build.0 = Release|iPhone
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{052672F1-EC15-4FE6-B1C3-1D766F4363E6}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{052672F1-EC15-4FE6-B1C3-1D766F4363E6}|Default">
+  <MonoDevelop.Ide.ItemProperties.InstanaXamarinExample FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.InstanaXamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.128BD106-6B49-4111-8A0B-0A5A5F97B9BA">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.InstanaXamarinExample.iOS>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InstanaXamarinExample" expanded="True">
+            <Node name="InstanaXamarinExample.iOS" expanded="True">
+              <Node name="NativeReferenceFolder" expanded="True">
+                <Node name="NativeReference" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
