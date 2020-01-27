@@ -189,7 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ../../iosAgent\nif which tools/swiftlint >/dev/null; then\n  scripts/lint.sh\nelse\n  scripts/install_swiftlint.sh\n  scripts/lint.sh\nfi\n";
+			shellScript = "cd ../../iosAgent\nif which tools/swiftlint/swiftlint >/dev/null; then\n  scripts/lint.sh\nelse\n  scripts/install_swiftlint.sh\n  scripts/lint.sh\nfi\n";
 		};
 		72D95B5023C49A92002AE1FA /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -207,7 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd ../../iosAgent\nif which tools/SwiftFormat >/dev/null; then\n  scripts/swiftformat.sh\nelse\n  scripts/install_swiftformat.sh\n  scripts/swiftformat.sh\nfi\n";
+			shellScript = "cd ../../iosAgent\nif which tools/SwiftFormat/swiftformat >/dev/null; then\n  scripts/swiftformat.sh\nelse\n  scripts/install_swiftformat.sh\n  scripts/swiftformat.sh\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
