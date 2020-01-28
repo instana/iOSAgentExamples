@@ -1,6 +1,6 @@
 //
 //  EventListViewController.swift
-//  iOSSensor-Development
+//  iOSAgentExample
 //
 //  Created by Christian Menschel on 10.12.19.
 //  Copyright © 2019 Instana Inc. All rights reserved.

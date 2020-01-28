@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		725C597D239FFC3E005FA53A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C597C239FFC3E005FA53A /* ImageViewController.swift */; };
-		725C597F239FFC7C005FA53A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C597E239FFC7C005FA53A /* WebViewController.swift */; };
-		725C5981239FFE6F005FA53A /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C5980239FFE6F005FA53A /* EventListViewController.swift */; };
-		7270B55923A78C8D00D8D36D /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7270B55823A78C8D00D8D36D /* Icon.xcassets */; };
-		728CF9DF2387F01200BEE2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CF9DE2387F01200BEE2F9 /* AppDelegate.swift */; };
-		728CF9E12387F01200BEE2F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CF9E02387F01200BEE2F9 /* SceneDelegate.swift */; };
-		728CF9E32387F01200BEE2F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CF9E22387F01200BEE2F9 /* ViewController.swift */; };
-		728CF9E62387F01200BEE2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CF9E42387F01200BEE2F9 /* Main.storyboard */; };
-		728CF9E82387F01300BEE2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728CF9E72387F01300BEE2F9 /* Assets.xcassets */; };
-		728CF9EB2387F01300BEE2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CF9E92387F01300BEE2F9 /* LaunchScreen.storyboard */; };
-		72ABFA9523C62020005BF2AD /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ABFA9423C62020005BF2AD /* JSONViewController.swift */; };
+		72C7A9E523E049FF00041782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9D723E049FF00041782 /* ViewController.swift */; };
+		72C7A9E623E049FF00041782 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9D823E049FF00041782 /* JSONViewController.swift */; };
+		72C7A9E723E049FF00041782 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C7A9D923E049FF00041782 /* Icon.xcassets */; };
+		72C7A9E823E049FF00041782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C7A9DA23E049FF00041782 /* Assets.xcassets */; };
+		72C7A9E923E049FF00041782 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9DB23E049FF00041782 /* ImageViewController.swift */; };
+		72C7A9EA23E049FF00041782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C7A9DC23E049FF00041782 /* LaunchScreen.storyboard */; };
+		72C7A9EB23E049FF00041782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C7A9DE23E049FF00041782 /* Main.storyboard */; };
+		72C7A9EC23E049FF00041782 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E023E049FF00041782 /* WebViewController.swift */; };
+		72C7A9ED23E049FF00041782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E123E049FF00041782 /* AppDelegate.swift */; };
+		72C7A9EF23E049FF00041782 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E323E049FF00041782 /* EventListViewController.swift */; };
+		72C7A9F023E049FF00041782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E423E049FF00041782 /* SceneDelegate.swift */; };
 		72F06F5023A9375100E1C62F /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72F06F4F23A9375100E1C62F /* InstanaAgent */; };
 		72FCCD9B238D3F350001EC6A /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72FCCD9A238D3F350001EC6A /* InstanaAgent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		725C597C239FFC3E005FA53A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		725C597E239FFC7C005FA53A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		725C5980239FFE6F005FA53A /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
-		7270B55823A78C8D00D8D36D /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
-		728CF9DB2387F01200BEE2F9 /* iOSSensor-Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSSensor-Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		728CF9DE2387F01200BEE2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		728CF9E02387F01200BEE2F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		728CF9E22387F01200BEE2F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		728CF9E52387F01200BEE2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		728CF9E72387F01300BEE2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		728CF9EA2387F01300BEE2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		728CF9EC2387F01300BEE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72ABFA9423C62020005BF2AD /* JSONViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewController.swift; sourceTree = "<group>"; };
+		728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAgentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C7A9D723E049FF00041782 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72C7A9D823E049FF00041782 /* JSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONViewController.swift; sourceTree = "<group>"; };
+		72C7A9D923E049FF00041782 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		72C7A9DA23E049FF00041782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72C7A9DB23E049FF00041782 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		72C7A9DD23E049FF00041782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72C7A9DF23E049FF00041782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72C7A9E023E049FF00041782 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		72C7A9E123E049FF00041782 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72C7A9E223E049FF00041782 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C7A9E323E049FF00041782 /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		72C7A9E423E049FF00041782 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		728CF9D22387F01200BEE2F9 = {
 			isa = PBXGroup;
 			children = (
-				728CF9DD2387F01200BEE2F9 /* iOSSensor-Development */,
+				72C7A9D623E049FF00041782 /* iOSAgentExample */,
 				728CF9DC2387F01200BEE2F9 /* Products */,
 				728CFA132387F06D00BEE2F9 /* Frameworks */,
 			);
@@ -63,28 +63,9 @@
 		728CF9DC2387F01200BEE2F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				728CF9DB2387F01200BEE2F9 /* iOSSensor-Development.app */,
+				728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		728CF9DD2387F01200BEE2F9 /* iOSSensor-Development */ = {
-			isa = PBXGroup;
-			children = (
-				728CF9DE2387F01200BEE2F9 /* AppDelegate.swift */,
-				728CF9E02387F01200BEE2F9 /* SceneDelegate.swift */,
-				728CF9E22387F01200BEE2F9 /* ViewController.swift */,
-				725C597C239FFC3E005FA53A /* ImageViewController.swift */,
-				725C597E239FFC7C005FA53A /* WebViewController.swift */,
-				725C5980239FFE6F005FA53A /* EventListViewController.swift */,
-				72ABFA9423C62020005BF2AD /* JSONViewController.swift */,
-				728CF9E42387F01200BEE2F9 /* Main.storyboard */,
-				728CF9E72387F01300BEE2F9 /* Assets.xcassets */,
-				728CF9E92387F01300BEE2F9 /* LaunchScreen.storyboard */,
-				728CF9EC2387F01300BEE2F9 /* Info.plist */,
-				7270B55823A78C8D00D8D36D /* Icon.xcassets */,
-			);
-			path = "iOSSensor-Development";
 			sourceTree = "<group>";
 		};
 		728CFA132387F06D00BEE2F9 /* Frameworks */ = {
@@ -94,12 +75,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		72C7A9D623E049FF00041782 /* iOSAgentExample */ = {
+			isa = PBXGroup;
+			children = (
+				72C7A9D723E049FF00041782 /* ViewController.swift */,
+				72C7A9D823E049FF00041782 /* JSONViewController.swift */,
+				72C7A9D923E049FF00041782 /* Icon.xcassets */,
+				72C7A9DA23E049FF00041782 /* Assets.xcassets */,
+				72C7A9DB23E049FF00041782 /* ImageViewController.swift */,
+				72C7A9DC23E049FF00041782 /* LaunchScreen.storyboard */,
+				72C7A9DE23E049FF00041782 /* Main.storyboard */,
+				72C7A9E023E049FF00041782 /* WebViewController.swift */,
+				72C7A9E123E049FF00041782 /* AppDelegate.swift */,
+				72C7A9E223E049FF00041782 /* Info.plist */,
+				72C7A9E323E049FF00041782 /* EventListViewController.swift */,
+				72C7A9E423E049FF00041782 /* SceneDelegate.swift */,
+			);
+			path = iOSAgentExample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		728CF9DA2387F01200BEE2F9 /* iOSSensor-Development */ = {
+		728CF9DA2387F01200BEE2F9 /* iOSAgentExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 728CF9FA2387F01300BEE2F9 /* Build configuration list for PBXNativeTarget "iOSSensor-Development" */;
+			buildConfigurationList = 728CF9FA2387F01300BEE2F9 /* Build configuration list for PBXNativeTarget "iOSAgentExample" */;
 			buildPhases = (
 				728CF9D72387F01200BEE2F9 /* Sources */,
 				728CF9D82387F01200BEE2F9 /* Frameworks */,
@@ -110,13 +110,13 @@
 			dependencies = (
 				72FCCD9D238D3F400001EC6A /* PBXTargetDependency */,
 			);
-			name = "iOSSensor-Development";
+			name = iOSAgentExample;
 			packageProductDependencies = (
 				72FCCD9A238D3F350001EC6A /* InstanaAgent */,
 				72F06F4F23A9375100E1C62F /* InstanaAgent */,
 			);
-			productName = "iOSSensor-Development";
-			productReference = 728CF9DB2387F01200BEE2F9 /* iOSSensor-Development.app */;
+			productName = iOSAgentExample;
+			productReference = 728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 728CF9D62387F01200BEE2F9 /* Build configuration list for PBXProject "iOSSensor-Development" */;
+			buildConfigurationList = 728CF9D62387F01200BEE2F9 /* Build configuration list for PBXProject "iOSAgentExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				728CF9DA2387F01200BEE2F9 /* iOSSensor-Development */,
+				728CF9DA2387F01200BEE2F9 /* iOSAgentExample */,
 			);
 		};
 /* End PBXProject section */
@@ -160,10 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728CF9EB2387F01300BEE2F9 /* LaunchScreen.storyboard in Resources */,
-				728CF9E82387F01300BEE2F9 /* Assets.xcassets in Resources */,
-				7270B55923A78C8D00D8D36D /* Icon.xcassets in Resources */,
-				728CF9E62387F01200BEE2F9 /* Main.storyboard in Resources */,
+				72C7A9EA23E049FF00041782 /* LaunchScreen.storyboard in Resources */,
+				72C7A9E823E049FF00041782 /* Assets.xcassets in Resources */,
+				72C7A9E723E049FF00041782 /* Icon.xcassets in Resources */,
+				72C7A9EB23E049FF00041782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,13 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728CF9E32387F01200BEE2F9 /* ViewController.swift in Sources */,
-				728CF9DF2387F01200BEE2F9 /* AppDelegate.swift in Sources */,
-				725C5981239FFE6F005FA53A /* EventListViewController.swift in Sources */,
-				72ABFA9523C62020005BF2AD /* JSONViewController.swift in Sources */,
-				725C597D239FFC3E005FA53A /* ImageViewController.swift in Sources */,
-				725C597F239FFC7C005FA53A /* WebViewController.swift in Sources */,
-				728CF9E12387F01200BEE2F9 /* SceneDelegate.swift in Sources */,
+				72C7A9E623E049FF00041782 /* JSONViewController.swift in Sources */,
+				72C7A9F023E049FF00041782 /* SceneDelegate.swift in Sources */,
+				72C7A9EF23E049FF00041782 /* EventListViewController.swift in Sources */,
+				72C7A9E923E049FF00041782 /* ImageViewController.swift in Sources */,
+				72C7A9E523E049FF00041782 /* ViewController.swift in Sources */,
+				72C7A9ED23E049FF00041782 /* AppDelegate.swift in Sources */,
+				72C7A9EC23E049FF00041782 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,20 +194,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		728CF9E42387F01200BEE2F9 /* Main.storyboard */ = {
+		72C7A9DC23E049FF00041782 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				728CF9E52387F01200BEE2F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		728CF9E92387F01300BEE2F9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				728CF9EA2387F01300BEE2F9 /* Base */,
+				72C7A9DD23E049FF00041782 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		72C7A9DE23E049FF00041782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C7A9DF23E049FF00041782 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1578416283;
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "iOSSensor-Development/Info.plist";
+				INFOPLIST_FILE = iOSAgentExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1578416283;
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "iOSSensor-Development/Info.plist";
+				INFOPLIST_FILE = iOSAgentExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		728CF9D62387F01200BEE2F9 /* Build configuration list for PBXProject "iOSSensor-Development" */ = {
+		728CF9D62387F01200BEE2F9 /* Build configuration list for PBXProject "iOSAgentExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				728CF9F82387F01300BEE2F9 /* Debug */,
@@ -387,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		728CF9FA2387F01300BEE2F9 /* Build configuration list for PBXNativeTarget "iOSSensor-Development" */ = {
+		728CF9FA2387F01300BEE2F9 /* Build configuration list for PBXNativeTarget "iOSAgentExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				728CF9FB2387F01300BEE2F9 /* Debug */,
@@ -404,7 +404,7 @@
 			repositoryURL = "https://github.com/instana/iOSAgent.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -1,6 +1,6 @@
 //
 //  JSONViewController.swift
-//  iOSSensor-Development
+//  iOSAgentExample
 //
 //  Created by Christian Menschel on 08.01.20.
 //  Copyright © 2020 Instana Inc. All rights reserved.

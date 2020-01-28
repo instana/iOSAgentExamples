@@ -10,7 +10,7 @@
         <!--Image-->
         <scene sceneID="UY8-mG-yZv">
             <objects>
-                <viewController id="tfq-rx-y0c" userLabel="Image" customClass="ImageViewViewController" customModule="iOSSensor_Development" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tfq-rx-y0c" userLabel="Image" customClass="ImageViewViewController" customModule="iOSAgentExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ldq-eB-hMu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
         <!--Web-->
         <scene sceneID="YLV-Na-a0i">
             <objects>
-                <viewController id="Zln-23-sBF" userLabel="Web" customClass="WebViewController" customModule="iOSSensor_Development" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zln-23-sBF" userLabel="Web" customClass="WebViewController" customModule="iOSAgentExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xQ6-RD-6M2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
         <!--JSON-->
         <scene sceneID="EQL-Kl-Rsi">
             <objects>
-                <viewController id="bKS-bc-wgo" customClass="JSONViewController" customModule="iOSSensor_Development" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bKS-bc-wgo" customClass="JSONViewController" customModule="iOSAgentExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9MU-Cp-bjW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,7 +143,7 @@
         <!--View Controller-->
         <scene sceneID="Hsd-Md-ksL">
             <objects>
-                <tabBarController id="mhx-rz-m3q" customClass="ViewController" customModule="iOSSensor_Development" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="mhx-rz-m3q" customClass="ViewController" customModule="iOSAgentExample" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ovM-dO-odB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -163,7 +163,7 @@
         <!--Events-->
         <scene sceneID="toK-9M-EzV">
             <objects>
-                <tableViewController title="Events" id="ibl-qc-AXH" customClass="EventListViewController" customModule="iOSSensor_Development" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Events" id="ibl-qc-AXH" customClass="EventListViewController" customModule="iOSAgentExample" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Cbz-fh-6r1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

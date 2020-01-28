@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  iOSSensor-Development
+//  iOSAgentExample
 //
 //  Created by Christian Menschel on 22.11.19.
 //  Copyright © 2019 Instana Inc. All rights reserved.
