@@ -18,9 +18,20 @@
 		72C7A9ED23E049FF00041782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E123E049FF00041782 /* AppDelegate.swift */; };
 		72C7A9EF23E049FF00041782 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E323E049FF00041782 /* EventListViewController.swift */; };
 		72C7A9F023E049FF00041782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E423E049FF00041782 /* SceneDelegate.swift */; };
+		72C7A9FA23E04D6300041782 /* iOSAgentExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9F923E04D6300041782 /* iOSAgentExampleUITests.swift */; };
 		72F06F5023A9375100E1C62F /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72F06F4F23A9375100E1C62F /* InstanaAgent */; };
 		72FCCD9B238D3F350001EC6A /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72FCCD9A238D3F350001EC6A /* InstanaAgent */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72C7A9FC23E04D6300041782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728CF9D32387F01200BEE2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728CF9DA2387F01200BEE2F9;
+			remoteInfo = iOSAgentExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAgentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +47,9 @@
 		72C7A9E223E049FF00041782 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72C7A9E323E049FF00041782 /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		72C7A9E423E049FF00041782 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72C7A9F723E04D6300041782 /* iOSAgentExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAgentExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C7A9F923E04D6300041782 /* iOSAgentExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAgentExampleUITests.swift; sourceTree = "<group>"; };
+		72C7A9FB23E04D6300041782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +62,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72C7A9F423E04D6300041782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				72C7A9D623E049FF00041782 /* iOSAgentExample */,
+				72C7A9F823E04D6300041782 /* iOSAgentExampleUITests */,
 				728CF9DC2387F01200BEE2F9 /* Products */,
 				728CFA132387F06D00BEE2F9 /* Frameworks */,
 			);
@@ -64,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */,
+				72C7A9F723E04D6300041782 /* iOSAgentExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +117,15 @@
 			path = iOSAgentExample;
 			sourceTree = "<group>";
 		};
+		72C7A9F823E04D6300041782 /* iOSAgentExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72C7A9F923E04D6300041782 /* iOSAgentExampleUITests.swift */,
+				72C7A9FB23E04D6300041782 /* Info.plist */,
+			);
+			path = iOSAgentExampleUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,18 +152,40 @@
 			productReference = 728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		72C7A9F623E04D6300041782 /* iOSAgentExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C7A9FE23E04D6300041782 /* Build configuration list for PBXNativeTarget "iOSAgentExampleUITests" */;
+			buildPhases = (
+				72C7A9F323E04D6300041782 /* Sources */,
+				72C7A9F423E04D6300041782 /* Frameworks */,
+				72C7A9F523E04D6300041782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C7A9FD23E04D6300041782 /* PBXTargetDependency */,
+			);
+			name = iOSAgentExampleUITests;
+			productName = iOSAgentExampleUITests;
+			productReference = 72C7A9F723E04D6300041782 /* iOSAgentExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		728CF9D32387F01200BEE2F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Instana Inc.";
 				TargetAttributes = {
 					728CF9DA2387F01200BEE2F9 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					72C7A9F623E04D6300041782 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 728CF9DA2387F01200BEE2F9;
 					};
 				};
 			};
@@ -152,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				728CF9DA2387F01200BEE2F9 /* iOSAgentExample */,
+				72C7A9F623E04D6300041782 /* iOSAgentExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +220,13 @@
 				72C7A9E823E049FF00041782 /* Assets.xcassets in Resources */,
 				72C7A9E723E049FF00041782 /* Icon.xcassets in Resources */,
 				72C7A9EB23E049FF00041782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C7A9F523E04D6300041782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,9 +268,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72C7A9F323E04D6300041782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C7A9FA23E04D6300041782 /* iOSAgentExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		72C7A9FD23E04D6300041782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728CF9DA2387F01200BEE2F9 /* iOSAgentExample */;
+			targetProxy = 72C7A9FC23E04D6300041782 /* PBXContainerItemProxy */;
+		};
 		72FCCD9D238D3F400001EC6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 72FCCD9C238D3F400001EC6A /* InstanaAgent */;
@@ -397,6 +472,44 @@
 			};
 			name = Release;
 		};
+		72C7A9FF23E04D6300041782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PCJAP39R;
+				INFOPLIST_FILE = iOSAgentExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.instana.iOSAgentExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSAgentExample;
+			};
+			name = Debug;
+		};
+		72C7AA0023E04D6300041782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PCJAP39R;
+				INFOPLIST_FILE = iOSAgentExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.instana.iOSAgentExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSAgentExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +527,15 @@
 			buildConfigurations = (
 				728CF9FB2387F01300BEE2F9 /* Debug */,
 				728CF9FC2387F01300BEE2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C7A9FE23E04D6300041782 /* Build configuration list for PBXNativeTarget "iOSAgentExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C7A9FF23E04D6300041782 /* Debug */,
+				72C7AA0023E04D6300041782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
