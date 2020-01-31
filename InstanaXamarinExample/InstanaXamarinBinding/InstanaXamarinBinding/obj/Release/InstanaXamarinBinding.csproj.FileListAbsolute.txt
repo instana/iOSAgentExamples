@@ -1,1 +1,0 @@
-/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iosAgent/tools/InstanaXamarinBinding/InstanaXamarinBinding/obj/Release/InstanaXamarinBinding.csprojAssemblyReference.cache

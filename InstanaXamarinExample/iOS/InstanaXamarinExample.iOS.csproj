@@ -145,10 +145,9 @@
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="..\InstanaXamarinExample.sln">
-      <Kind>Static</Kind>
+    <NativeReference Include="..\InstanaXamarinBinding\InstanaBinding.sln">
+      <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
-      <ForceLoad>True</ForceLoad>
     </NativeReference>
   </ItemGroup>
   <Import Project="..\InstanaXamarinExample\InstanaXamarinExample.projitems" Label="Shared" Condition="Exists('..\InstanaXamarinExample\InstanaXamarinExample.projitems')" />

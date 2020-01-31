@@ -5,6 +5,8 @@ FAT_BUILD_PATH="build"
 FRAMEWORK_NAME="InstanaAgent"
 FRAMEWORK_SRC=${FRAMEWORK_NAME}-src
 FRAMEWORKS=(${FRAMEWORK_NAME} "Gzip" "system_zlib")
+SDK=`sharpie xcode -sdks | grep -o '\.*iphoneos\S*'`
+
 # Remove old stuff first
 rm -rf ${FRAMEWORK_NAME}-src
 rm -rf ${FAT_BUILD_PATH}
@@ -52,14 +54,17 @@ do
 
 	# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory
 	lipo -create -output "${FAT_BUILD_PATH}/${name}.framework/${name}" "${FRAMEWORK_SRC}/build/simulator/${name}.framework/${name}" "${FRAMEWORK_SRC}/build/iphoneos/${name}.framework/${name}"
+
 done
 echo "Done with fat framework"
 
 ############### End building fat framework #######################
 
-SDK=`sharpie xcode -sdks | grep -o '\.*iphoneos\S*'`
-sharpie bind -sdk ${SDK} ${FAT_BUILD_PATH}/${FRAMEWORK_NAME}.framework/Headers/${FRAMEWORK_NAME}-Swift.h
-mv ApiDefinitions.cs InstanaXamarinBinding/ApiDefinitions.cs
-mv StructsAndEnums.cs InstanaXamarinBinding/Structs.cs
 
+sharpie bind -sdk ${SDK} -output ${FRAMEWORK_NAME}-binding -namespace ${FRAMEWORK_NAME} ${FAT_BUILD_PATH}/${FRAMEWORK_NAME}.framework/Headers/${FRAMEWORK_NAME}-Swift.h
+
+#mv ApiDefinitions.cs InstanaXamarinBinding/ApiDefinition.cs
+#mv StructsAndEnums.cs InstanaXamarinBinding/Structs.cs
+# Clean up
+rm -rf ${FRAMEWORK_SRC}
 echo "Completed"

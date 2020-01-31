@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="InstanaXamarinBinding/ApiDefinitions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstanaXamarinBinding/ApiDefinition.cs">
     <Files>
-      <File FileName="InstanaXamarinBinding/ApiDefinitions.cs" Line="17" Column="18" />
-      <File FileName="InstanaXamarinBinding/Structs.cs" Line="41606" Column="1" />
-      <File FileName="../../../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.ObjCBinding.CSharp.targets" Line="63" Column="3" />
+      <File FileName="InstanaXamarinBinding/Structs.cs" Line="17" Column="16" />
+      <File FileName="../../../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.ObjCBinding.CSharp.targets" />
+      <File FileName="InstanaXamarinBinding/ApiDefinition.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +13,7 @@
               <Node name="References" expanded="True" />
               <Node name="NativeReferenceFolder" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="ApiDefinition.cs" selected="True" />
             </Node>
           </Node>
         </State>

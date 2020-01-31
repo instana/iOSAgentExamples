@@ -1,5 +1,7 @@
 ﻿using Foundation;
 using UIKit;
+using ObjCRuntime;
+using InstanaBinding;
 
 namespace InstanaXamarinExample.iOS
 {
@@ -20,7 +22,7 @@ namespace InstanaXamarinExample.iOS
         {
             App.Initialize();
 
-
+            
 
             return true;
         }

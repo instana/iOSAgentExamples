@@ -3,7 +3,10 @@
   <MonoDevelop.Ide.ItemProperties.InstanaXamarinExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.128BD106-6B49-4111-8A0B-0A5A5F97B9BA">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.InstanaXamarinExample.iOS>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="43" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

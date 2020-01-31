@@ -1,0 +1,5 @@
+/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iOSAgentExamples/InstanaXamarinExample/InstanaXamarinBinding/InstanaBinding/bin/Debug/NativeLibrary.dll
+/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iOSAgentExamples/InstanaXamarinExample/InstanaXamarinBinding/InstanaBinding/bin/Debug/NativeLibrary.pdb
+/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iOSAgentExamples/InstanaXamarinExample/InstanaXamarinBinding/InstanaBinding/obj/Debug/InstanaBinding.csprojAssemblyReference.cache
+/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iOSAgentExamples/InstanaXamarinExample/InstanaXamarinBinding/InstanaBinding/obj/Debug/NativeLibrary.dll
+/Users/christianmenschel/Documents/TAPWORK/02_Kunden/instana/01_code/iOSAgentExamples/InstanaXamarinExample/InstanaXamarinBinding/InstanaBinding/obj/Debug/NativeLibrary.pdb
