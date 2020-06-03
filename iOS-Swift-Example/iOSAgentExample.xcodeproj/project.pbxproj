@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72B7BFBB2487CA0100D868E3 /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72B7BFBA2487CA0100D868E3 /* InstanaAgent */; };
+		72B7BFBD2487CAB400D868E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B7BFBC2487CAB400D868E3 /* WebKit.framework */; };
 		72C7A9E523E049FF00041782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9D723E049FF00041782 /* ViewController.swift */; };
 		72C7A9E623E049FF00041782 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9D823E049FF00041782 /* JSONViewController.swift */; };
 		72C7A9E723E049FF00041782 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C7A9D923E049FF00041782 /* Icon.xcassets */; };
@@ -18,12 +20,11 @@
 		72C7A9ED23E049FF00041782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E123E049FF00041782 /* AppDelegate.swift */; };
 		72C7A9EF23E049FF00041782 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E323E049FF00041782 /* EventListViewController.swift */; };
 		72C7A9F023E049FF00041782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C7A9E423E049FF00041782 /* SceneDelegate.swift */; };
-		72F06F5023A9375100E1C62F /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72F06F4F23A9375100E1C62F /* InstanaAgent */; };
-		72FCCD9B238D3F350001EC6A /* InstanaAgent in Frameworks */ = {isa = PBXBuildFile; productRef = 72FCCD9A238D3F350001EC6A /* InstanaAgent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAgentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B7BFBC2487CAB400D868E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		72C7A9D723E049FF00041782 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72C7A9D823E049FF00041782 /* JSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONViewController.swift; sourceTree = "<group>"; };
 		72C7A9D923E049FF00041782 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
@@ -43,8 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72FCCD9B238D3F350001EC6A /* InstanaAgent in Frameworks */,
-				72F06F5023A9375100E1C62F /* InstanaAgent in Frameworks */,
+				72B7BFBD2487CAB400D868E3 /* WebKit.framework in Frameworks */,
+				72B7BFBB2487CA0100D868E3 /* InstanaAgent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +72,7 @@
 		728CFA132387F06D00BEE2F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72B7BFBC2487CAB400D868E3 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,8 +115,7 @@
 			);
 			name = iOSAgentExample;
 			packageProductDependencies = (
-				72FCCD9A238D3F350001EC6A /* InstanaAgent */,
-				72F06F4F23A9375100E1C62F /* InstanaAgent */,
+				72B7BFBA2487CA0100D868E3 /* InstanaAgent */,
 			);
 			productName = iOSAgentExample;
 			productReference = 728CF9DB2387F01200BEE2F9 /* iOSAgentExample.app */;
@@ -145,7 +146,7 @@
 			);
 			mainGroup = 728CF9D22387F01200BEE2F9;
 			packageReferences = (
-				72F06F4E23A9375100E1C62F /* XCRemoteSwiftPackageReference "iOSAgent" */,
+				72B7BFB92487CA0100D868E3 /* XCRemoteSwiftPackageReference "iOSAgent" */,
 			);
 			productRefGroup = 728CF9DC2387F01200BEE2F9 /* Products */;
 			projectDirPath = "";
@@ -358,7 +359,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1578416283;
+				CURRENT_PROJECT_VERSION = 1591187516;
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSAgentExample/Info.plist;
@@ -381,7 +382,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1578416283;
+				CURRENT_PROJECT_VERSION = 1591187516;
 				DEVELOPMENT_TEAM = D5PCJAP39R;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSAgentExample/Info.plist;
@@ -421,24 +422,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		72F06F4E23A9375100E1C62F /* XCRemoteSwiftPackageReference "iOSAgent" */ = {
+		72B7BFB92487CA0100D868E3 /* XCRemoteSwiftPackageReference "iOSAgent" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/instana/iOSAgent.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = develop;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		72F06F4F23A9375100E1C62F /* InstanaAgent */ = {
+		72B7BFBA2487CA0100D868E3 /* InstanaAgent */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 72F06F4E23A9375100E1C62F /* XCRemoteSwiftPackageReference "iOSAgent" */;
-			productName = InstanaAgent;
-		};
-		72FCCD9A238D3F350001EC6A /* InstanaAgent */ = {
-			isa = XCSwiftPackageProductDependency;
+			package = 72B7BFB92487CA0100D868E3 /* XCRemoteSwiftPackageReference "iOSAgent" */;
 			productName = InstanaAgent;
 		};
 		72FCCD9C238D3F400001EC6A /* InstanaAgent */ = {
