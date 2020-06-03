@@ -34,6 +34,7 @@ class WebViewController: UIViewController {
     @IBAction func enteredURL() {
         guard let value = searchTextField.text, let url = URL(string: value) else { return }
         load(url: url)
+        Instana.reportEvent(name: "WebView Load", meta: ["URL": url.absoluteString], viewName: "WebView")
     }
 }
 

@@ -44,6 +44,14 @@ class JSONViewController: UIViewController {
         let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
         present(alert, animated: true, completion: nil)
+        let error = NSError(domain: "JSONErrorDomain", code: -1, userInfo: nil)
+        Instana.reportEvent(name: "JSON URL invalid",
+                            timestamp: Date().millisecondsSince1970,
+                            duration: 12,
+                            backendTracingID: "MockBackendTraceID",
+                            error: error,
+                            meta: ["message": message],
+                            viewName: "JSONView")
     }
 }
 
